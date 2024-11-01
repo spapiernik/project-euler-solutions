@@ -1,0 +1,80 @@
+site_name: Project Euler Solutions
+site_description: My solutions to project euler problems
+site_author: Santiago Papiernik
+
+theme:
+  name: material
+  features:
+  - content.code.annotate
+  - navigation.footer
+  - navigation.tabs
+  icon:
+    logo: simple/pythonanywhere
+  palette:
+  - media: "(prefers-color-scheme)"
+    toggle:
+      icon: material/lightbulb-auto
+      name: Switch to light mode
+  - media: '(prefers-color-scheme: light)'
+    scheme: default
+    primary: teal
+    accent: amber
+    toggle:
+      icon: material/lightbulb
+      name: Switch to dark mode
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    primary: teal
+    accent: amber
+    toggle:
+      icon: material/lightbulb-outline
+      name: Switch to system preference
+  language: en
+
+markdown_extensions:
+- attr_list
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+- pymdownx.highlight:
+    anchor_linenums: true
+    line_spans: __span
+    pygments_lang_class: true
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- pymdownx.superfences
+- pymdownx.tabbed:
+    alternate_style: true
+- admonition
+- pymdownx.details
+
+extra:
+  generator: false
+  social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/Cxx-mlr
+    name: GitHub
+  - icon: fontawesome/brands/x-twitter
+    link: https://x.com/Cxx_mlr
+    name: X-Twitter
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/in/santiago-papiernik-7502342b2/
+
+  alternate:
+  - name: English
+    link: /en/
+    lang: en
+
+copyright: Copyright &copy; 2024 Santiago Papiernik
+
+repo_name: project-euler-solutions
+repo_url: https://github.com/Cxx-mlr/project-euler-solutions
+
+nav:
+  - Home: index.md
+  - Introduction:
+    - About Project Euler: about_project_euler.md
+    - About This Site: about_this_site.md
+  - Solutions:
+    - Problems 1-10:
+      - Problem 1: solutions/001.md
