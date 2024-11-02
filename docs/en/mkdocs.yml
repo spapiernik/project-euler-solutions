@@ -72,9 +72,6 @@ repo_url: https://github.com/Cxx-mlr/project-euler-solutions
 
 nav:
   - Home: index.md
-  - Introduction:
-    - About Project Euler: about_project_euler.md
-    - About This Site: about_this_site.md
   - Solutions:
     - Problems 1-10:
       - Problem 1: solutions/001.md
