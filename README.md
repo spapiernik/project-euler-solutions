@@ -17,8 +17,6 @@ Project Euler is a series of complex mathematical problems intended for computer
 
 ## Structure of This Repository
 
-Solutions are grouped into folders based on problem ranges (e.g., `problems_1-10`, `problems_11-20`, etc.). Each folder contains markdown documentation for individual problems, including the problem statement and solution approach. The code implementations are provided in Python and located in the `/src` directory.
-
 ```plaintext
 project-euler-solutions/
 ├── docs/                     # Documentation files
