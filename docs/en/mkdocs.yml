@@ -47,7 +47,8 @@ markdown_extensions:
     alternate_style: true
 - admonition
 - pymdownx.details
-
+- pymdownx.arithmatex:
+    generic: true
 extra:
   generator: false
   social:
@@ -65,6 +66,10 @@ extra:
     link: /en/
     lang: en
 
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
 copyright: Copyright &copy; 2024 Santiago Papiernik
 
 repo_name: project-euler-solutions
@@ -75,3 +80,8 @@ nav:
   - Solutions:
     - Problems 1-10:
       - Problem 1: solutions/001.md
+      - Problem 2: solutions/002.md
+      - Problem 3: solutions/003.md
+      - Problem 4: solutions/004.md
+      - Problem 5: solutions/005.md
+      - Problem 6: solutions/006.md
