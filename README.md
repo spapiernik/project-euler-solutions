@@ -55,7 +55,7 @@ Each problem markdown file typically includes:
 
 ## How to Run Solutions
 
-Each solution is written in Python. You can run a specific solution by executing the corresponding file in the `src` directory:
+Each solution is written in Python. You can run a specific solution by executing the corresponding file in the `docs_src` directory:
 
 ```bash
 python docs_src/001.py
