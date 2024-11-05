@@ -28,8 +28,8 @@ project-euler-solutions/
 │   |   └── ...               # Other docs
 |   └── ...                   # Additional language folders, if any
 ├── docs_src/                 # Code solutions
-│   ├── problem_001.py        # Solution for Problem 1
-│   ├── problem_002.py        # Solution for Problem 2
+│   ├── 001.py                # Solution for Problem 1
+│   ├── 002.py                # Solution for Problem 2
 │   └── ...                   # Other solutions
 └── README.md                 # Project overview (this file)
 ```
