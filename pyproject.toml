@@ -1,7 +1,7 @@
 [project]
 name = "project-euler-solutions"
 version = "0.1.0"
-description = "Add your description here"
+description = "My solutions to project euler problems"
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
